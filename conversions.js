@@ -9,27 +9,6 @@ showdown.Converter = function (converterOptions) {
 
   var
       /**
-       * Options used by this converter
-       * @private
-       * @type {{}}
-       */
-      options = {},
-
-      /**
-       * Language extensions used by this converter
-       * @private
-       * @type {Array}
-       */
-      langExtensions = [],
-
-      /**
-       * Output modifiers extensions used by this converter
-       * @private
-       * @type {Array}
-       */
-      outputModifiers = [],
-
-      /**
        * Event listeners
        * @private
        * @type {{}}
