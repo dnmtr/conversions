@@ -8,6 +8,7 @@ showdown.Converter = function (converterOptions) {
   'use strict';
 
   var
+      // Test comment
       /**
        * Event listeners
        * @private
